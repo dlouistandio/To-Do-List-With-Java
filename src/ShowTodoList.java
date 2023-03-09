@@ -1,6 +1,7 @@
 public class ShowTodoList {
     static ToDoList toDoList;
     public static void showList(){
+        System.out.println("To Do List");
         for(int i = 0; i < toDoList.data.length; i++){
             String todo = toDoList.data[i];
             int no = i + 1;
